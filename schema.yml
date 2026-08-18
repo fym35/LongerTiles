@@ -91,6 +91,7 @@ layers:
     features:
     - source: contour
       geometry: line
+      min_zoom: 5
       attributes:
         - key: ele
           type: get
