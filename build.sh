@@ -144,7 +144,7 @@ single_planet() {
         --hgtdir=work/hgt \
         --sources=view1,view3 \
         --simplifyContoursEpsilon=0.001 \
-        -j16 \
+        -j$(nproc --all) \
         --max-nodes-per-tile=0 \
         --output-prefix="./work/contours/$REG/con"
 
@@ -195,7 +195,7 @@ generate_region() {
     --hgtdir=work/hgt \
     --sources=view1,view3 \
     --simplifyContoursEpsilon=0.001 \
-    -j16 \
+    -j$(nproc --all) \
     --max-nodes-per-tile=0 \
     --output-prefix="./work/contours/$(system_path "${PATH_ARG}")/con"
 
