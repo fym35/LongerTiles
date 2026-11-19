@@ -1,5 +1,5 @@
-schema_name: StrikeMaps Tileschema
-schema_description: A tileschema for OpenStreetMap data developed by the Strike Maps project.
+schema_name: Longer Tileschema
+schema_description: A vector tileschema for OpenStreetMap data developed by the Strike Maps project
 attribution: <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>, Natural Earth, NASA SRTM
 args:
   osm_file:
